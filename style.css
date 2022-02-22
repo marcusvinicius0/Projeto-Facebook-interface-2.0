@@ -124,12 +124,23 @@ button {
         width: 29vw;
         height: 53.5vh;
     }
+    
+    button {
+        width: 90%;
+    }
+
+ 
 }
 
 @media (min-width: 850px) and (max-width: 949px){
 
     .container1 {
         margin-left: -12vw;
+    }
+
+    
+    button {
+        width: 90%;
     }
 
 }
@@ -148,6 +159,12 @@ button {
         width: 35vw;
         height: 53.5vh;
     }
+
+    
+    button {
+        width: 90%;
+    }
+
 }
 
 @media (min-width: 650px) and (max-width: 749px) {
@@ -173,6 +190,11 @@ button {
     }
 
     .enterBtn {
+        width: 90%;
+    }
+
+    
+    button {
         width: 90%;
     }
 
@@ -205,6 +227,11 @@ button {
     }
 
     .enterBtn {
+        width: 90%;
+    }
+
+    
+    button {
         width: 90%;
     }
 
