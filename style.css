@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F0F2F5;
+}
+
+.container1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+img {
+    height: 15vh;
+    margin-left: -55vw;
+    margin-top: 13vw;
+}
+
+.firstP {
+    margin-left: 14vw;
+    font-size: 28px;
+}
+
+.container2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+form {
+display: flex;
+flex-direction: column;
+gap: 9px;
+margin-top: -17vw;
+margin-right: 17vw;
+border: 1px solid rgba(128, 128, 128, 0.164);
+box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+border-radius: 8px;
+width: 29vw;
+height: 53.5vh;
+background-color: white;
+justify-content: center;
+align-items: center;
+}
+
+input {
+width: 26vw;
+height: 7vh;
+padding-left: 12px;
+font-size: 17px;
+border: 1px solid rgb(218, 218, 218);
+margin-bottom: 10px;
+border-radius: 6px;
+text-decoration: none;
+background-color: white;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.enterBtn {
+    background-color: #1877F2;
+    width: 26vw;
+    height: 7vh;
+    text-decoration: none;
+    color: #FFFFFB;
+    font-size: 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 0vw;
+}
+
+.forgotPw {
+    text-decoration: none;
+    color: #188CF5;
+    width: 1;
+    background-color: white;
+}
+
+hr {
+    width: 95%;
+    opacity: 0.5;
+}
+
+button {
+    background-color: #42b72a;
+    border-radius: 6px;
+    border: none;
+    height: 49px;
+    width: 13vw;
+    font-size: 17px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.finalInfo {
+    margin-top: 2vw;
+    margin-left: 37vw;
+    text-align: center;
+}
+
+.createPg {
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width:950px) and (max-width:1115px) {
+
+    .container1 {
+        margin-left: -9vw;
+    }
+
+    .facebookLogo {
+        margin-left: -61vw;
+    }
+
+    form {
+        width: 29vw;
+        height: 53.5vh;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 949px){
+
+    .container1 {
+        margin-left: -12vw;
+    }
+
+}
+
+@media (min-width: 750px) and (max-width: 849px){
+
+    .container1 {
+        margin-left: -12vw;
+    }
+
+    .firstP {
+        font-size: 20px;
+    }
+
+    form {
+        width: 35vw;
+        height: 53.5vh;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 749px) {
+
+    .container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firstP {
+        text-align: center;
+    }
+
+    .facebookLogo {
+        margin-left: 6vw;
+    }
+
+    form {
+        margin-top: 8vw;
+        width: 35vw;
+        height: 53.5vh;
+    }
+
+    .enterBtn {
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 550px) and (max-width: 649px) {
+
+    .container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firstP {
+        text-align: center;
+    }
+
+    .facebookLogo {
+        margin-left: 6vw;
+    }
+
+    form {
+        margin-top: 8vw;
+        width: 50vw;
+        height: 53.5vh;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    .enterBtn {
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 450px) and (max-width: 549px) {
+
+    .container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firstP {
+        text-align: center;
+    }
+
+    .facebookLogo {
+        margin-left: 6vw;
+    }
+
+    form {
+        margin-top: 8vw;
+        width: 55vw;
+        height: 53.5vh;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    .enterBtn {
+        width: 90%;
+    }
+
+    button {
+        width: 90%;
+    }
+
+    .finalInfo {
+        margin-left: 3vw;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 449px){
+    .container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -7vw;
+    }
+
+    .firstP {
+        margin-left: 2vw;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .facebookLogo {
+        margin-left: 6vw;
+    }
+
+    form {
+        margin-top: 8vw;
+        width: 70vw;
+        height: 53.5vh;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    .enterBtn {
+        width: 90%;
+    }
+
+    button {
+        width: 90%;
+    }
+
+
+    .finalInfo {
+        margin-left: 3vw;
+        margin-top: 5vw;
+        font-size: 14px;
+    }
+
+}
